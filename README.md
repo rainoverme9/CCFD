@@ -60,11 +60,11 @@ The original project used Neo4j 5 and APOC 5. Some queries depend on the current
 
 ## Documentation
 
-The complete methodology, database design, Cypher queries, performance measurements, and results are available in the accompanying project report and presentation in the `docs/` directory.
+The complete methodology, database design, Cypher queries, performance measurements, and results are available in the accompanying project report and presentation in the [Project Presentation](docs/CCFD.pdf).
 
 ## Authors
 
-**Elisa Campana and Elena Mazzilli** — University of Milan.
+**Elisa Campana and Elena Mazzilli**
 
 ## References
 
