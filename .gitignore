@@ -1,0 +1,27 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.pytest_cache/
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+
+# Neo4j local data / dumps
+*.dump
+*.backup
+.neo4j/
+
+# Regenerable large datasets
+dataset100MB/
+dataset200MB/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
