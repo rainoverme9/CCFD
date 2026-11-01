@@ -4,7 +4,7 @@ A university project developed for the **New Generation Data Models and DBMS** c
 
 The work covers dataset simulation, graph modeling, CSV data import, analytical queries, and performance evaluation across three dataset sizes.
 
-> **Scope:** This is a database design and analysis project, **not** a trained machine-learning fraud classifier. All transaction data is synthetic.
+> **Scope:** This is a database design and analysis project, where all transaction data is synthetic.
 
 ## Project Overview
 
@@ -40,10 +40,9 @@ The repository includes the 50 MB dataset as an example. Larger datasets can be 
 
 ## Project Structure
 
-- `Credit_Card_Fraud_Analysis.ipynb` — Dataset simulation, graph import, and Cypher queries.
+- `CCFDAnalysis.ipynb` — Dataset simulation, graph import, and Cypher queries.
 - `dataset50MB/` — Sample synthetic CSV dataset.
-- `docs/Project_Report.pdf` — Full technical report.
-- `docs/Project_Presentation.pdf` — Project presentation.
+- `docs/CCRD.pdf` — Project presentation.
 - `requirements.txt` — Python dependencies.
 - `.env.example` — Example Neo4j connection configuration.
 
@@ -53,7 +52,7 @@ The repository includes the 50 MB dataset as an example. Larger datasets can be 
 2. Install the dependencies using `python -m pip install -r requirements.txt`.
 3. Copy `.env.example` to `.env` and enter the local Neo4j credentials.
 4. Copy the provided CSV files into Neo4j's configured import directory.
-5. Launch Jupyter Lab and open `Credit_Card_Fraud_Analysis.ipynb`.
+5. Launch Jupyter Lab and open `CCFD_Analysis.ipynb`.
 6. Execute the connection, import, and analysis sections.
 
 The original project used Neo4j 5 and APOC 5. Some queries depend on the current date and may require adjusting their time window to match the generated dataset.
